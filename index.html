@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"><img src="/building-solid.svg" alt="" height="25px" style="background-color: orange;"> ESTATEease </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#booking">booking</a>
+        <a href="#styles">styles</a>
+        <a href="#prices">prices</a>
+        <a href="#footer">contact</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <!-- <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">₹100/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">₹120/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">₹180/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total :₹400/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div> -->
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Discover Your <span>Ideal Stay</span></h3>
+        <p>Effortless Booking, Unforgettable Experiences!</p>
+        <a href="#" class="btn">Browse Now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="services">
+
+    <h1 class="heading"> our <span>Services</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="">
+
+            <div class="swiper-slide box">
+                <img src="/orange.jpg" alt="">
+                <h3>Explore our range of property maintenance services</h3>
+                <div class="price">
+                    <ul>
+                        <li>HVAC systems are one of the most expensive investments in any property. More importantly, they are vital to the comfort and satisfaction of your residents... <br></li>
+                        <li>Electrical Repairs <br></li>
+                        <li>Landscaping <br></li>
+                        <li>Although changing filters on HVAC units, cleaning exterior glass, caring for landscaping, and inspecting the roof are less routine tasks, they should be ... <br></li>
+                        <li>cleaning gutters <br></li>
+                        <li>Clearing roof gutters; Sweeping and mopping floors; Waste ... Janitors and cleaning crews serve the same function as maintenance technicians but focus on cleaning ... <br></li>
+                        <li>Plumbing <br></li>
+                        <li>Plumbing repairs are a vital aspect of commercial building maintenance that requires someone to be available at all hours of the day. You may want to consider <br></li>
+                </ul>
+                </div>
+                
+        </div>
+
+    </div>
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+<section class="categories" id="booking">
+
+    <h1 class="heading"> product <span>Booking</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://money-tourism.gr/wp-content/uploads/2018/11/booking.jpg" alt="">
+            <h3>Booking.com</h3>
+            <p></p>
+            <a href="https://www.booking.com/" class="btn">Browse now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://my-milkadeal.s3.ap-southeast-1.amazonaws.com/storage/128000/118165/fd54c023aa1b9f02c7d711c512521929.png" alt="" id="xd">
+            <h3>Agoda</h3>
+            <p></p>
+            <a href="https://www.agoda.com/en-in/?cid=1914935&tag=3cda3586-9ec8-88d2-2819-7b1e8bb3ad04&msclkid=a8c795d469741a9a3574f08e85a36837&ds=F0tVsm3dm0jhe9wf" class="btn">Browse now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://gos3.ibcdn.com/og-goibibo-1614052912.png" alt="">
+            <h3>Goibibo</h3>
+            <p></p>
+            <a href="https://www.goibibo.com/hotels/" class="btn">Browse now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://logodownload.org/wp-content/uploads/2016/11/trivago-logo.png" alt="" width="240em">
+            <h3>Trivago</h3>
+            <p></p>
+            <a href="https://www.trivago.in/en-IN/lm?themeId=280&search=200-64981&sem_keyword=trivago&sem_creativeid=72636773952608&sem_matchtype=be&sem_network=o&sem_device=c&sem_campaignid=191340818&sem_adgroupid=3930406455&sem_targetid=40966707859&cipc=br&cip=9119110005&msclkid=faca4e5eb23c17026be52b045f3e4535" class="btn">Browse now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- categories section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="styles">
+
+    <h1 class="heading"> Product<span>Styles</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="">
+
+            <div class="box swiper-slide" id="product-styles">
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="prices">
+
+    <h1 class="heading"> our <span>Prices</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="/1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 3 JAN 2023 </a>
+                </div>
+                <h3>Modern House</h3>
+                <p>50 Lakhs - 5 Crores</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="/2.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i>  29 APR, 2022 </a>
+                </div>
+                <h3>Villa</h3>
+                <p>5 Lakhs - 50 Lakhs</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="/3.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2023 </a>
+                </div>
+                <h3>Factory</h3>
+                <p>10 Crores - 25 Crores</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="/4.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2023 </a>
+                </div>
+                <h3>Apartment</h3>
+                <p>5 Crores - 10 Crores</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> ESTATEease <img src="/building-solid.svg" alt="" height="25px" style="background-color: orange;"> </h3>
+            <p>We sell the best to the best of our customers, that's our moto and our principle.</p>
+            <div class="share">
+                <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/home?lang=en" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +91 9234897897 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +91 1987978362 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> estateease@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Phagwara, india -23424  </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> servies </a>
+            <a href="#booking" class="links"> <i class="fas fa-arrow-right"></i> booking </a>
+            <a href="#styles" class="links"> <i class="fas fa-arrow-right"></i> styles </a>
+            <a href="#prices" class="links"> <i class="fas fa-arrow-right"></i> prices </a>
+            <a href="#contact" class="links"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit">all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
